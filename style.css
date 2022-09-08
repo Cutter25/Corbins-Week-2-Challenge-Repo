@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(0, 43, 96);
+    background-color: rgb(51, 87, 130);
     display: block;
     position:absolute;
     top: 0%;
@@ -8,7 +8,7 @@ header {
 }
 
 body {
-    background-color: rgb(177, 223, 252);
+    background-color: rgb(214, 239, 255);
 }
 
 h1 {
@@ -37,4 +37,33 @@ a {
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
+}
+
+main {
+    display: block;
+    color: rgb(0, 43, 96);
+}
+
+h2 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.about-me {
+    margin-top: 500px;
+    margin-bottom: 400px;
+
+}
+
+.am-p {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 1000px;
+    bottom: 200px;
+    right: 100px;
+
+
 }
