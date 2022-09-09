@@ -20,6 +20,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 50px;
+    width: auto;
 }
 
 ul {
@@ -56,26 +57,40 @@ h2 {
 }
 
 .about-me-section {
-    
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 #about-me {
     display: inline-block;
-    margin-top: 50px;
+    float: left;
     border-right: 5px solid rgb(0, 43, 96);
+    height: 500px;
     padding-right: 150px;
 }
 
 #about-me-image {
+    display: inline-block;
     width: auto;
     height: 500px;
     border: 5px solid rgb(0, 43, 96);
+    margin-left: 200px;
+   
 }
 
 #about-me-p {
+    display: inline-block; 
+    float: right;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    margin-right: 150px;
+    margin-top: 100px;
+}
 
+.work-section {
+    
 }
 
 #work {
