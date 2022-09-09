@@ -1,10 +1,13 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 header {
     background-color: rgb(51, 87, 130);
     display: block;
-    position:absolute;
-    top: 0%;
-    left: 0%;
-    right: 0%;
+    width: 100%;
 }
 
 body {
@@ -16,7 +19,7 @@ h1 {
     font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    text-decoration-line: underline;
+    margin-bottom: 50px;
 }
 
 ul {
@@ -27,9 +30,6 @@ ul > li {
     display: inline-block;
     list-style-type: none;
     margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 0;
 }
 
 a {
@@ -38,15 +38,13 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     background-color: rgb(214, 239, 255);
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    border: 20px solid rgb(214, 239, 255);
     border-radius: 50px;
+    margin: 50px;
 }
 
 main {
-    display: block;
+    display: inline-block;
     color: rgb(0, 43, 96);
 }
 
@@ -57,40 +55,36 @@ h2 {
     margin-left: 50px;
 }
 
-.about-me {
-    margin-top: 500px;
-    width: 450px;
-    height: 725px;
-    border-right: 5px solid rgb(0, 43, 96);
-    margin-bottom: 200px;
-
+.about-me-section {
+    
 }
 
-.about-me-image {
-    position: absolute;
-    left: 600px;
-    bottom: 100px;
+#about-me {
+    display: inline-block;
+    margin-top: 50px;
+    border-right: 5px solid rgb(0, 43, 96);
+    padding-right: 150px;
+}
+
+#about-me-image {
     width: auto;
     height: 500px;
     border: 5px solid rgb(0, 43, 96);
 }
 
-.about-me-p {
+#about-me-p {
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
-    position: absolute;
-    left: 1100px;
-    bottom: 285px;
-    right: 300px;
+
 }
 
-.work {
+#work {
     border-right: 5px solid rgb(0, 43, 96);
     width: 450px;
     height: 500px
 }
 
-.work-image-one {
+#work-image-one {
     position: absolute;
     left: 600px;
     top: 1445px;
@@ -99,7 +93,7 @@ h2 {
     border: 30px solid rgb(0, 43, 96);
 }
 
-.work-image-two {
+#work-image-two {
     position: absolute;
     left: 1500px;
     top: 1445px;
@@ -108,7 +102,7 @@ h2 {
     border: 30px solid rgb(0, 43, 96);
 }
 
-.work-image-three {
+#work-image-three {
     position: absolute;
     left: 2000px;
     top: 1445px;
@@ -119,7 +113,7 @@ h2 {
 
 
 
-.contact-me {
+#contact-me {
     border-right: 5px solid rgb(0, 43, 96);
     width: 450px;
     height: 500px
