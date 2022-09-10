@@ -94,7 +94,7 @@ h2 {
 #about-me-p {
     color: rgb(223, 234, 249);
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: midnightblue;
     border: 50px solid midnightblue;
     border-radius: 20px;
@@ -111,7 +111,6 @@ h2 {
     height: 500px;
     margin-bottom: 5%;
     margin-top: 5%;
-
 }
 
 #work {
@@ -146,10 +145,10 @@ h2 {
 }
 
 #first-project-text {
-    width: 225px;
+    width: 250px;
     height: 50px;
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color:  rgb(223, 234, 249);
     background-color: midnightblue;
     padding-left: 10px;
@@ -159,41 +158,83 @@ h2 {
     left: 10px;
 }
 
+#second-project-container {
+    display: inline-block;
+    width: 800px;
+    height: 250px;
+    margin-left: 50px;
+    opacity: .5;
+    text-decoration: none;
+    position: relative;
+    bottom: 275px;
+}
+
+#second-project-container:hover {
+    opacity: 1;
+    transition-duration: .8s;
+}
 
 #work-image-two {
     display: inline-block;
-    position: relative;
-    bottom: 260px;
-    left: 15px;
-    width: 35%;
-    height: 240px;
+    position: inherit;
+    width: 800px;
+    height: 225px;
     border: 10px solid midnightblue;
     border-radius: 20px;
-    opacity: .5;
 }
 
-#work-image-two:hover {
+#second-project-text {
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(223, 234, 249);
+    background-color: midnightblue;
+    padding-left: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    bottom: 225px;
+    left: 10px;
+}
+
+#third-project-container {
+    display: inline-block;
+    width: 800px;
+    height: 250px;
+    margin-left: 100px;
+    opacity: .5;
+    text-decoration: none;
+    position: relative;
+    bottom: 270px;
+    left: 1502px;
+}
+
+#third-project-container:hover {
     opacity: 1;
     transition-duration: .8s;
 }
 
 #work-image-three {
     display: inline-block;
-    position: relative;
-    bottom: 245px;
-    left: 1558px;
-    width: 35%;
-    height: 240px;
-    margin-right: 100px;
+    position: inherit;
+    width: 800px;
+    height: 225px;
     border: 10px solid midnightblue;
     border-radius: 20px;
-    opacity: .5;
 }
 
-#work-image-three:hover {
-    opacity: 1;
-    transition-duration: .8s;
-    
+#third-project-text {
+    width: 250px;
+    height: 50px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(223, 234, 249);
+    background-color: midnightblue;
+    padding-left: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    bottom: 225px;
+    left: 10px;
 }
 
 .contact-me-section {
