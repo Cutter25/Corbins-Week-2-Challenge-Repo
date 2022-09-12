@@ -10,7 +10,6 @@ html {
 
 header {
     background-color: midnightblue;
-    display: block;
     width: 100%;
 }
 
@@ -20,11 +19,323 @@ body {
 
 h1 {
     color: white;
-    font-size: 100px;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 50px;
-    width: auto;
+    padding-top: 10px;
+}
+
+ul {
+    text-align: center;
+}
+
+ul > li {
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+.header-nav-elements {
+    color: midnightblue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 50px;
+    margin: 50px;
+    opacity: .8;
+}
+
+.header-nav-elements:hover {
+    transition-duration: .8s;
+    opacity: 1;
+}
+
+/* Mac Screen below */
+
+main {
+    display: block;
+    color: midnightblue;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.about-me-section {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#about-me {
+    display: block;
+    border-bottom: 5px solid goldenrod;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#about-me-image {
+    display: block;
+    width: 60%;
+    height: 300px;
+    border: 5px solid midnightblue;
+    margin-left: auto;
+    margin-right: auto;
+   border-radius: 20px;
+}
+
+#about-me-p {
+    color: rgb(223, 234, 249);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: midnightblue;
+    border: 50px solid midnightblue;
+    display: block; 
+    width: 100%;
+    height: 625px;
+    margin-top: 50px;
+}
+
+.work-section {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#work {
+    display: block;
+    border-bottom: 5px solid goldenrod;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#first-project-container {
+    display: block;
+    width: 75%;
+    height: 200px;
+    opacity: .5;
+    text-decoration: none;
+    margin-left: 12.5%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#first-project-container:hover {
+    opacity: 1;
+    transition-duration: .8s;
+}
+
+#work-image-one {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border: 10px solid midnightblue;
+    border-radius: 20px;
+}
+
+#first-project-text {
+    display: block;
+    width: 135px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(223, 234, 249);
+    background-color: midnightblue;
+    padding-left: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    bottom: 190px;
+}
+
+#second-project-container {
+    display: block;
+    width: 75%;
+    height: 200px;
+    opacity: .5;
+    text-decoration: none;
+    margin-left: 12.5%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#second-project-container:hover {
+    opacity: 1;
+    transition-duration: .8s;
+}
+
+#work-image-two {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border: 10px solid midnightblue;
+    border-radius: 20px;
+}
+
+#second-project-text {
+    display: block;
+    width: 165px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(223, 234, 249);
+    background-color: midnightblue;
+    padding-left: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    bottom: 190px;
+}
+
+#third-project-container {
+    display: block;
+    width: 75%;
+    height: 200px;
+    opacity: .5;
+    text-decoration: none;
+    margin-left: 12.5%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#third-project-container:hover {
+    opacity: 1;
+    transition-duration: .8s;
+}
+
+#work-image-three {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border: 10px solid midnightblue;
+    border-radius: 20px;
+}
+
+#third-project-text {
+    display: block;
+    width: 140px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(223, 234, 249);
+    background-color: midnightblue;
+    padding-left: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    bottom: 190px;
+}
+
+.contact-me-section {
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+
+#contact-me {
+    display: block;
+    border-bottom: 5px solid goldenrod;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#contact-information-phone {
+    display: block;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#contact-information-email {
+    display: block;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Website Effects Below */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: goldenrod; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: gold; 
+  }
+
+/* Responsiveness Below */
+
+@media screen and (min-width: 500px){
+    #about-me-image {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 428px){
+    #about-me-p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 560px){
+    #about-me-p {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 625px){
+    #about-me-p {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 760px){
+    #about-me-p {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 800px){
+    #about-me-p {
+        height: 350px;
+    }
+}
+@media screen and (min-width: 950px){
+    #about-me-p {
+        height: 300px;
+}
+
+}
+@media screen and (min-width: 1327px){
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 10px;
 }
 
 ul {
@@ -55,7 +366,7 @@ ul > li {
 }
 
 main {
-    display: inline-block;
+    display: block;
     color: midnightblue;
 }
 
@@ -63,72 +374,82 @@ h2 {
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    margin-left: 50px;
+    padding-left: 50px;
 }
 
 .about-me-section {
+    display: block;
     width: 100%;
-    height: 500px;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    height: 600px;
+    margin-bottom: 25px;
+    margin-top: 50px;
 }
 
 #about-me {
     display: inline-block;
-    float: left;
+    height: 100px;
+    width: 30%;
+    height: 300px;
+    margin-bottom: 50px;
+    border-bottom: none;
     border-right: 5px solid goldenrod;
-    height: 500px;
-    width: 500px;
-    padding-right: 2%;
 }
 
 #about-me-image {
-    display: inline-block;
-    width: auto;
-    height: 500px;
+    display: block;
+    width: 300px;
+    height: 300px;
     border: 5px solid midnightblue;
-    margin-left: 100px;
-   border-radius: 20px;
+    margin-left: 50%;
+    margin-right: auto;
+    position: relative;
+    bottom: 350px;
+    border-radius: 20px;
 }
 
 #about-me-p {
     color: rgb(223, 234, 249);
-    font-size: 40px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: midnightblue;
     border: 50px solid midnightblue;
-    border-radius: 20px;
-    display: inline-block; 
-    float: right;
-    width: 50%;
-    margin-right: 150px;
-    margin-top: 60px;
+    display: block; 
+    width: 100%;
+    height: 240px;
+    margin-top: 50px;
+    position: relative;
+    bottom: 350px;
+
 }
 
 .work-section {
     display: block;
     width: 100%;
-    height: 500px;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    height: 800px;
+    margin-bottom: 25px;
+    margin-top: 50px;
 }
 
 #work {
     display: inline-block;
-    float: left;
+    height: 100px;
+    width: 30%;
+    height: 300px;
+    margin-bottom: 50px;
+    border-bottom: none;
     border-right: 5px solid goldenrod;
-    height: 500px;
-    width: 500px;
-    padding-right: 150px;
 }
 
 #first-project-container {
-    display: inline-block;
-    width: 900px;
-    height: 500px;
-    margin-left: 100px;
+    display: block;
+    width: 50%;
+    height: 300px;
     opacity: .5;
     text-decoration: none;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    float: right;
+    margin-right: 5%;
 }
 
 #first-project-container:hover {
@@ -137,36 +458,37 @@ h2 {
 }
 
 #work-image-one {
-    display: inline-block;
-    width: 900px;
-    height: 500px;
+    display: block;
+    width: 100%;
+    height: 300px;
     border: 10px solid midnightblue;
     border-radius: 20px;
 }
 
 #first-project-text {
-    width: 250px;
-    height: 50px;
-    font-size: 40px;
+    display: block;
+    width: 135px;
+    height: 30px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color:  rgb(223, 234, 249);
     background-color: midnightblue;
     padding-left: 10px;
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
     position: relative;
-    bottom: 500px;
-    left: 10px;
+    bottom: 290px;
 }
 
 #second-project-container {
-    display: inline-block;
-    width: 800px;
-    height: 250px;
-    margin-left: 50px;
+    display: block;
+    width: 50%;
+    height: 200px;
     opacity: .5;
     text-decoration: none;
-    position: relative;
-    bottom: 275px;
+    margin-left: 5%;
+    border-radius: 20px;
+    margin-bottom: 50px;
 }
 
 #second-project-container:hover {
@@ -175,38 +497,37 @@ h2 {
 }
 
 #work-image-two {
-    display: inline-block;
-    position: inherit;
-    width: 800px;
-    height: 225px;
+    display: block;
+    width: 100%;
+    height: 200px;
     border: 10px solid midnightblue;
     border-radius: 20px;
 }
 
 #second-project-text {
-    width: 300px;
-    height: 50px;
-    font-size: 40px;
+    display: block;
+    width: 165px;
+    height: 30px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color:  rgb(223, 234, 249);
     background-color: midnightblue;
     padding-left: 10px;
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
     position: relative;
-    bottom: 225px;
-    left: 10px;
+    bottom: 190px;
 }
 
 #third-project-container {
-    display: inline-block;
-    width: 800px;
-    height: 250px;
-    margin-left: 100px;
+    display: block;
+    width: 50%;
+    height: 200px;
     opacity: .5;
     text-decoration: none;
-    position: relative;
-    bottom: 270px;
-    left: 1502px;
+    margin-left: 45%;
+    border-radius: 20px;
+    margin-bottom: 50px;
 }
 
 #third-project-container:hover {
@@ -215,78 +536,329 @@ h2 {
 }
 
 #work-image-three {
-    display: inline-block;
-    position: inherit;
-    width: 800px;
-    height: 225px;
+    display: block;
+    width: 100%;
+    height: 200px;
     border: 10px solid midnightblue;
     border-radius: 20px;
 }
 
 #third-project-text {
-    width: 250px;
-    height: 50px;
-    font-size: 35px;
+    display: block;
+    width: 140px;
+    height: 30px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color:  rgb(223, 234, 249);
     background-color: midnightblue;
     padding-left: 10px;
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
     position: relative;
-    bottom: 225px;
-    left: 10px;
+    bottom: 190px;
 }
 
 .contact-me-section {
     display: block;
     width: 100%;
-    height: 500px;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 75px;
 }
 
 #contact-me {
-    display: inline-block;
-    float: left;
-    border-right: 5px solid goldenrod;
-    height: 500px;
-    width: 500px;
-    padding-right: 150px;
+    display: block;
+    height: 100px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-bottom: 5px solid goldenrod;
+    text-align: center;
 }
 
 #contact-information-phone {
-    display: inline-block;
-    font-size: 40px;
+    display: block;
+    font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    left: 100px;
-    top: 240px;
+    text-align: center;
 }
 
 #contact-information-email {
-    display: inline-block;
-    font-size: 40px;
+    display: block;
+    font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    left: 200px;
-    top: 240px;
+    text-align: center;
+}
 }
 
-/* Website Effects Below */
-
-::-webkit-scrollbar {
-    width: 20px;
+@media screen and (min-width: 1800px){
+    #about-me-p {
+        height: 200px;
 }
 
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-  }
+@media screen and (min-width: 2231px){
 
-  ::-webkit-scrollbar-thumb {
-    background: goldenrod; 
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: gold; 
-  }
-
+    h1 {
+        color: white;
+        font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-bottom: 50px;
+        padding-top: 10px;
+    }
+    
+    ul {
+        text-align: center;
+    }
+    
+    ul > li {
+        display: inline-block;
+        list-style-type: none;
+        margin-bottom: 50px;
+    }
+    
+    .header-nav-elements {
+        color: midnightblue;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        background-color: white;
+        border: 20px solid white;
+        border-radius: 50px;
+        margin: 50px;
+        opacity: .8;
+    }
+    
+    .header-nav-elements:hover {
+        transition-duration: .8s;
+        opacity: 1;
+    }
+    
+    main {
+        display: block;
+        color: midnightblue;
+    }
+    
+    h2 {
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: left;
+        padding-left: 50px;
+    }
+    
+    .about-me-section {
+        display: block;
+        width: 100%;
+        height: 400px;
+        margin-bottom: 25px;
+        margin-top: 50px;
+    }
+    
+    #about-me {
+        display: inline-block;
+        height: 100px;
+        width: 30%;
+        height: 300px;
+        margin-bottom: 50px;
+        border-bottom: none;
+        border-right: 5px solid goldenrod;
+    }
+    
+    #about-me-image {
+        display: block;
+        width: 300px;
+        height: 300px;
+        border: 5px solid midnightblue;
+        margin-left: 35%;
+        margin-right: auto;
+        position: relative;
+        bottom: 350px;
+        border-radius: 20px;
+    }
+    
+    #about-me-p {
+        color: rgb(223, 234, 249);
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: midnightblue;
+        border: 50px solid midnightblue;
+        border-radius: 20px;
+        display:inline-block; 
+        width: 45%;
+        height: 240px;
+        position: relative;
+        left: 50%;
+        bottom: 640px;
+    
+    }
+    
+    .work-section {
+        display: block;
+        width: 100%;
+        height: 800px;
+        margin-bottom: 25px;
+        margin-top: 50px;
+    }
+    
+    #work {
+        display: inline-block;
+        height: 100px;
+        width: 30%;
+        height: 300px;
+        margin-bottom: 50px;
+        border-bottom: none;
+        border-right: 5px solid goldenrod;
+    }
+    
+    #first-project-container {
+        display: block;
+        width: 50%;
+        height: 300px;
+        opacity: .5;
+        text-decoration: none;
+        border-radius: 20px;
+        margin-bottom: 50px;
+        float: right;
+        margin-right: 5%;
+    }
+    
+    #first-project-container:hover {
+        opacity: 1;
+        transition-duration: .8s;
+    }
+    
+    #work-image-one {
+        display: block;
+        width: 100%;
+        height: 300px;
+        border: 10px solid midnightblue;
+        border-radius: 20px;
+    }
+    
+    #first-project-text {
+        display: block;
+        width: 135px;
+        height: 30px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:  rgb(223, 234, 249);
+        background-color: midnightblue;
+        padding-left: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        position: relative;
+        bottom: 290px;
+    }
+    
+    #second-project-container {
+        display: block;
+        width: 50%;
+        height: 200px;
+        opacity: .5;
+        text-decoration: none;
+        margin-left: 5%;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+    
+    #second-project-container:hover {
+        opacity: 1;
+        transition-duration: .8s;
+    }
+    
+    #work-image-two {
+        display: block;
+        width: 100%;
+        height: 200px;
+        border: 10px solid midnightblue;
+        border-radius: 20px;
+    }
+    
+    #second-project-text {
+        display: block;
+        width: 165px;
+        height: 30px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:  rgb(223, 234, 249);
+        background-color: midnightblue;
+        padding-left: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        position: relative;
+        bottom: 190px;
+    }
+    
+    #third-project-container {
+        display: block;
+        width: 50%;
+        height: 200px;
+        opacity: .5;
+        text-decoration: none;
+        margin-left: 45%;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+    
+    #third-project-container:hover {
+        opacity: 1;
+        transition-duration: .8s;
+    }
+    
+    #work-image-three {
+        display: block;
+        width: 100%;
+        height: 200px;
+        border: 10px solid midnightblue;
+        border-radius: 20px;
+    }
+    
+    #third-project-text {
+        display: block;
+        width: 140px;
+        height: 30px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:  rgb(223, 234, 249);
+        background-color: midnightblue;
+        padding-left: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        position: relative;
+        bottom: 190px;
+    }
+    
+    .contact-me-section {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        margin-top: 75px;
+    }
+    
+    #contact-me {
+        display: block;
+        height: 100px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        border-bottom: 5px solid goldenrod;
+        text-align: center;
+    }
+    
+    #contact-information-phone {
+        display: block;
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    
+    #contact-information-email {
+        display: block;
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    }
